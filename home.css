@@ -1,0 +1,445 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    width: 300px;
+    outline: none;
+}
+
+.search-button {
+    background-color: #171718;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button, .register-button, .register-buttons {
+    background-color: #fff;
+    border: 1px solid #0e0e0f;
+    color: #1a1a1b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+   
+}
+
+.register-button {
+    background-color: transparent;
+    margin-right: 50px;
+}
+.register-buttons {
+    margin-right: 50px;
+}
+
+.login-button:hover, .register-button:hover, .register-buttons:hover {
+    background-color: #f71303;
+
+    
+}
+
+.navbar-right button a{
+    text-decoration: none;
+   
+}
+.navbar-right button a:hover{
+   color: #f0f2eb;
+   
+}
+
+.navbar-right{
+    display: flex;
+}
+
+.search-button:hover {
+    background-color: #f71303;
+    
+}
+
+.search-button i {
+    font-size: 16px;
+}
+
+.logo img{
+    height: 120px;
+    width: 200px;
+    padding: 20px;
+}
+
+.tab1 ul {
+    list-style: none;
+    display: flex;
+    background-color: #f0f2eb;
+}
+
+.tab1 ul li {
+    margin-right: 40px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px;
+    margin-left: 80px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #0e0e0f;
+    color: #1a1a1b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li:hover {
+    background-color: #f71303;
+    color: white;
+}
+
+
+
+nav a{
+    color: #0e0d0d;
+    font-style: Bold;
+    font-size: larger;
+    margin-right: 20px;
+    text-decoration: none;
+} 
+.mainfoot{
+    text-align: center;
+    margin-left: 600px;
+}
+.Luffy img{
+    width: 100%;
+    height: 580px;
+    padding: 0px;
+}
+
+
+.tab1 ul li img{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+}
+
+header{
+    background-color:rgb(100, 150, 239);
+    color: #fff;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+.pro1{
+   text-align: center; 
+   background-color: rgb(177, 136, 175);
+   margin-right: 50px;
+   color: black;
+   margin-left: 40px;
+   border: solid black;
+   border-radius: 30px;
+   background-image: url('../Images/Luffy\ \(4\).png');
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+
+}
+
+.pro2{
+    text-align: center;
+    background-color:rgb(177, 136, 175);
+    margin-right: 50px;
+    border: solid black;
+    border-radius: 30px;
+    background-image: url('../Images/Luffy\ \(4\).png');
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+
+    
+    
+
+}
+.pro3{
+    text-align: center;
+    background-color:rgb(177, 136, 175);
+    border: solid black;
+    border-radius: 30px;
+    background-image: url('../Images/Luffy\ \(4\).png');
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+
+
+    
+}
+.pro4{
+    text-align: center; 
+    background-color: rgb(177, 136, 175);
+    margin-right: 10px;
+    color: black;
+    margin-left: 40px;
+    border: solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-image: url('../Images/Luffy\ \(4\).png');
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+
+  
+ 
+ }
+ .pro5{
+    text-align: center; 
+    background-color: rgb(177, 136, 175);
+    margin-right: 10px;
+    color: black;
+    margin-left: 40px;
+    border: solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-image: url('../Images/Luffy\ \(4\).png');
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+
+  
+ 
+ }
+ .pro6{
+    text-align: center; 
+    background-color: rgb(177, 136, 175);
+    margin-right: 50px;
+    color: black;
+    margin-left: 13px;
+    border: solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-image: url('../Images/Luffy\ \(4\).png');
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+
+  
+ 
+ }
+
+.pro1 img{
+    height: 280px;
+    width: 320px;
+    padding: 20px;
+}
+.pro2 img{
+    height: 280px;
+    width: 320px;
+    padding: 20px;
+}
+.pro3 img{
+    height: 280px;
+    width: 320px;
+    padding: 20px;
+}
+.pro4 img{
+    height: 280px;
+    width: 320px;
+    padding: 20px;
+}
+.pro5 img{
+    height: 280px;
+    width: 320px;
+    padding: 20px;
+}
+.pro6 img{
+    height: 280px;
+    width: 320px;
+    padding: 20px;
+}
+
+
+.pro1 button{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    
+}
+.pro1 button:hover {
+    background-color: rgb(43, 241, 13); 
+}
+.pro2 button:hover {
+    background-color: rgb(43, 241, 13); 
+}
+.pro3 button:hover {
+    background-color: rgb(43, 241, 13); 
+}
+.pro4 button:hover {
+    background-color: rgb(43, 241, 13); 
+}
+.pro5 button:hover {
+    background-color: rgb(43, 241, 13); 
+}
+.pro6 button:hover {
+    background-color: rgb(43, 241, 13); 
+}
+.pro2 button{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+.pro3 button{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+.pro4 button{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.pro5 button{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+.pro6 button{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+
+
+
+footer {
+    background-color: rgb(135, 205, 232);
+    color: #010617;
+    text-align: center;
+    /* padding: 10px; */
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-content h3 {
+    font-size: 1.8em;
+}
+
+.footer-content p {
+    font-size: 1em;
+    margin: 10px 0 20px;
+}
+
+.footer-links, .socials {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li, .socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a, .socials a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover, .socials a:hover {
+    color: #ff6347; 
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+.socials a {
+    font-size: 1.5em;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+.footer-content img{
+    height: 100px;
+}
+
+
+
+footer {
+    padding-top: 20px;
+  
+    bottom: 0;
+    width: 100%;
+}

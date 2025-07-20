@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.product-info {
+    flex: 1;
+    padding: 30px;
+}
+
+.product-image img {
+    width: 650px;
+    height: 514px;
+}
+
+.sale-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
